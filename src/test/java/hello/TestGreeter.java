@@ -76,7 +76,7 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello Peter Cowsar!");
 
    }
-	
+	/*
    @Test
 
    public void newtestPCGreeterFail() 
@@ -90,4 +90,5 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello eight-story crustacean from the Paleozoic era!");
 
    }
+   */
 }
