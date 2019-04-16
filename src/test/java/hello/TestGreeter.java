@@ -63,19 +63,19 @@ public class TestGreeter {
    }
 
 	
-   //@Test
+   @Test
 
-   //public void newtestPCGreeterPass() 
+   public void newtestPCGreeterPass() 
 
-   //{
+   {
 
-      //g.setName("Peter Cowsar");
+      g.setName("Peter Cowsar");
 
-      //assertEquals(g.getName(),"Peter Cowsar");
+      assertEquals(g.getName(),"Peter Cowsar");
 
-      //assertEquals(g.sayHello(),"Hello Peter Cowsar!");
+      assertEquals(g.sayHello(),"Hello Peter Cowsar!");
 
-   //}
+   }
 	
    @Test
 
