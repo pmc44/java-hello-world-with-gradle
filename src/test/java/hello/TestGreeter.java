@@ -77,17 +77,17 @@ public class TestGreeter {
 
    }
 	
-   @Test
+   //@Test
 
-   public void newtestPCGreeterFail() 
+   //public void newtestPCGreeterFail() 
 
-   {
+   //{
 
-      g.setName("Peter Cowsar");
+      //g.setName("Peter Cowsar");
 
-      assertEquals(g.getName(),"Lochness Monster");
+      //assertEquals(g.getName(),"Lochness Monster");
 
-      assertEquals(g.sayHello(),"Hello eight-story crustacean from the Paleozoic era!");
+      //assertEquals(g.sayHello(),"Hello eight-story crustacean from the Paleozoic era!");
 
-   }
+   //}
 }
