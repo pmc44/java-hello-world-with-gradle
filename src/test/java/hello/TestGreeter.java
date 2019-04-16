@@ -63,31 +63,31 @@ public class TestGreeter {
    }
 
 	
-   @Test
-
-   public void newtestPCGreeterPass() 
-
-   {
-
-      g.setName("Peter Cowsar");
-
-      assertEquals(g.getName(),"Peter Cowsar");
-
-      assertEquals(g.sayHello(),"Hello Peter Cowsar!");
-
-   }
-	
    //@Test
 
-   //public void newtestPCGreeterFail() 
+   //public void newtestPCGreeterPass() 
 
    //{
 
       //g.setName("Peter Cowsar");
 
-      //assertEquals(g.getName(),"Lochness Monster");
+      //assertEquals(g.getName(),"Peter Cowsar");
 
-      //assertEquals(g.sayHello(),"Hello eight-story crustacean from the Paleozoic era!");
+      //assertEquals(g.sayHello(),"Hello Peter Cowsar!");
 
    //}
+	
+   @Test
+
+   public void newtestPCGreeterFail() 
+
+   {
+
+      g.setName("Peter Cowsar");
+
+      assertEquals(g.getName(),"Lochness Monster");
+
+      assertEquals(g.sayHello(),"Hello eight-story crustacean from the Paleozoic era!");
+
+   }
 }
